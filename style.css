@@ -1,0 +1,80 @@
+body {
+    background: whitesmoke;
+}
+
+.navbar {
+    /* position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 11; */
+    background: rgb(0, 174, 239);
+}
+
+.searchBox {
+    width: 90px;
+    border-radius: 50px;
+    background: #4fc3f7;
+    border-color: #e1f5fe;
+    width: 300px;
+}
+
+.searchBox::placeholder {
+    color: white;
+}
+
+.container {
+    background: white;
+    width: 600px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-Galang-dana {
+    background: rgb(0, 174, 239);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-tanya {
+    color: rgb(0, 174, 239);
+    border-radius: 50px;
+    font-weight: bold;
+    color: rgb(0, 174, 239);
+    border-color: rgb(0, 174, 239);
+}
+
+.do {
+    Display: Inline-Block;
+}
+
+.img-do {
+    width: 70px;
+}
+
+.scrolling-wrapper-flexbox {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.card {
+    display: inline-block;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 500px;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.ico {
+    align-items: center;
+    Display: Inline-Block;
+    padding-right: 40px;
+}
